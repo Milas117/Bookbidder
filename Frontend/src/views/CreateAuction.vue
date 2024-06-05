@@ -13,7 +13,7 @@
       </div>
       
       <div class="form-group">
-        <label for="bookAuthor">Book Author:</label>
+        <label for="bookAuthor">Book Publisher:</label>
         <input type="text" id="bookAuthor" v-model="bookAuthor" class="form-control" required>
       </div>
       

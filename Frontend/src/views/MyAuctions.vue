@@ -4,7 +4,7 @@
         <h1 class="main-text">List of my auctions</h1>
       </div>
       <div class="books">
-        <BookItem v-for="book in books" :key="book.id" :book="book" />
+        <BookItem v-for="book in books" :key="book.id" :book="book" :isMyAuctionsPage="true" />
       </div>
     </div>
   </template>
